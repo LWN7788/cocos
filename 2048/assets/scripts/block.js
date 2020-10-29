@@ -13,7 +13,7 @@ cc.Class({
 
     setNumber(number){
         if(number==0){
-            this.numberLabel.active=false;
+            this.numberLabel.node.active=false;
         }
         this.numberLabel.string=number;
         this.node.color=colors[number];
